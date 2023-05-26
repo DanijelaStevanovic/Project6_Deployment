@@ -25,7 +25,7 @@ The main goal of this project is to predict loan eligibility based on customer d
 
 
 ## Process
-![MLC](Images/MLC.png)
+![MLC](images/MLC.png)
 
 ### Steps:
 - EDA
@@ -47,11 +47,11 @@ The main goal of this project is to predict loan eligibility based on customer d
 - Deployment to Cloud (AWS)
 
 ## Results/Demo
-![EDA](Images/EDA.png)
+![EDA](images/EDA.png)
 
-![Pipeline](Images/Pipeline.png)
+![Pipeline](images/Pipeline.png)
 
-![Deployment](Images/Deployment.png)
+![Deployment](images/Deployment.png)
 
 
 
