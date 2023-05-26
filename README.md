@@ -3,25 +3,61 @@
 ### [Assignment](assignment.md)
 
 ## Project/Goals
-(fill in your description and goals here)
+The main goal of this project is to predict loan eligibility based on customer details and make API with Flask and make Deployment to Cloud (AWS).
 
-## Hypothesis
-(fill in your hypothesis about which subset of applicants will be most likely to have their loan approved, and why. Give some examples of how you will test this hypothesis)
+## Detail of Dataset
 
-## EDA 
-(fill in what you discovered in your exploration of the dataset)
+|Variable| Description|
+|:-|:-|
+|Loan_ID| Unique Loan ID|
+|Gender| Male/ Female|
+|Married| Applicant married (Y/N)|
+|Dependents| Number of dependents|
+|Education| Applicant Education (Graduate/ Under Graduate)|
+|Self_Employed| Self employed (Y/N)|
+|ApplicantIncome| Applicant income|
+|CoapplicantIncome| Coapplicant income|
+|LoanAmount| Loan amount in thousands|
+|Loan_Amount_Term| Term of loan in months|
+|Credit_History| credit history meets guidelines|
+|Property_Area| Urban/ Semi Urban/ Rural|
+|Loan_Status| Loan approved (Y/N)
 
 
 ## Process
-(fill in what you did during EDA, cleaning, feature engineering, modeling, deployment, testing)
-### (your step 1)
-### (your step 2)
+![MLC](Images/MLC.png)
+
+### Steps:
+- EDA
+
+- Data Preparation, Data Cleaning
+
+- Feature Engineering
+
+- Model development (LogisticRegression, RandomForestClassifier)
+
+- Optimization model with HyperParameter (GridSearchCV) 
+
+- Pipelines
+
+- Model Persistance
+
+- Flask - building an API
+
+- Deployment to Cloud (AWS)
 
 ## Results/Demo
-(fill in your model's performance, details about the API you created, and (optional) a link to an live demo)
+![EDA](Images/EDA.png)
+
+![Pipeline](Images/Pipeline.png)
+
+![Deployment](Images/Deployment.png)
+
+
+
 
 ## Challanges 
-(discuss challenges you faced in the project)
+It was challenging part with pipeline, bilding API and deployment on Cloud.
 
 ## Future Goals
-(what would you do if you had more time? are there any potential issues/biases with your model/use case?)
+I need spend more time to ptactice part with pipeline, bilding API and deployment on Cloud.
